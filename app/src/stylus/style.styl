@@ -45,7 +45,8 @@ button.navbar-toggle
 			font-family Lato-Regular
 			color #868686
 			padding 0.7rem 2rem
-			
+			&:visited
+				background-color #ffffff
 			&:hover
 				color #ffffff
 				background-color #ffbb42
@@ -245,6 +246,9 @@ button.navbar-toggle
 	padding-top 14rem
 	padding-bottom 16rem
 	margin-bottom 16rem
+
+.overflow-hidden
+	overflow hidden
 
 .suggesting-prices
 	border-radius 0.3rem
@@ -569,7 +573,7 @@ div.price-hovered
 			&:hover
 				color #ffc155
 
-@media screen and (max-width: 1200px)
+@media screen and (max-width: 1099px)
 	ul.nav-menu
 		a
 			padding-left 1.5rem
@@ -595,7 +599,7 @@ div.price-hovered
 	.lower-arrow
 		&:after
 			left 14.5rem
-@media screen and (max-width: 992px)
+@media screen and (max-width: 991px)
 	.user-data
 		margin-bottom 2rem
 	
@@ -633,7 +637,7 @@ div.price-hovered
 		bottom -12rem
 		left -3.5rem
 		
-@media screen and (max-width: 768px)
+@media screen and (max-width: 767px)
 	.navbar-collapse
 		position absolute
 		text-align center
