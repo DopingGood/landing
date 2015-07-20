@@ -169,6 +169,9 @@ button.navbar-toggle:active {
   top: 1.9rem;
   left: 10.2rem;
 }
+.laptop-wrap img {
+  z-index: 1;
+}
 .slick-slider,
 .slick-list {
   height: 100%;
