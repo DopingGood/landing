@@ -170,7 +170,7 @@ button.navbar-toggle:active {
   left: 10.2rem;
 }
 .laptop-wrap img {
-  z-index: 1;
+  height: 25rem;
 }
 .slick-slider,
 .slick-list {
