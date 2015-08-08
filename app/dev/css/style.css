@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: OpenSans-Regular;
-  src: url("../fonts/OpenSans-Regular.ttf") format('truetype'), url("../fonts/OpenSansRegular.eot") format('embedded-opentype'), url("../fonts/OpenSansRegular.woff") format('woff');
+  src: url("../fonts/OpenSansRegular.eot") format('embedded-opentype'), url("../fonts/OpenSansRegular.woff") format('woff'), url("../fonts/OpenSans-Regular.ttf") format('truetype');
 }
 @font-face {
   font-family: OpenSans-Light;
