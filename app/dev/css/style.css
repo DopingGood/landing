@@ -87,6 +87,9 @@ button.navbar-toggle:active {
   -webkit-border-radius: 0.2rem;
   border-radius: 0.2rem;
 }
+.nav-menu li a:focus {
+  background-color: #fff;
+}
 .boost-up {
   background-color: #709dca;
   padding-top: 7rem;
