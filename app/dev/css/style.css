@@ -78,6 +78,9 @@ button.navbar-toggle:active {
   color: #868686;
   padding: 0.7rem 2rem;
 }
+.nav-menu li a:focus {
+  background-color: #fff;
+}
 .nav-menu li a:visited {
   background-color: #fff;
 }
@@ -86,9 +89,6 @@ button.navbar-toggle:active {
   background-color: #ffbb42;
   -webkit-border-radius: 0.2rem;
   border-radius: 0.2rem;
-}
-.nav-menu li a:focus {
-  background-color: #fff;
 }
 .boost-up {
   background-color: #709dca;
